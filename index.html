@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span class="span">Shooping SDSALIOU</span>
+        <!-- Menu de navigation -->
+        <nav>
+            <ul>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- le corps de la page -->
+    <section class="body"id="produits">
+        <!-- les produits -->
+    <div class="cart" >
+        <div class="cart-item" prix="10000">
+            <!-- l'image -->
+            <div class="item-image">
+                <img src="asset/img1.jpg" alt="Produit1">
+            </div>
+            <!-- l'info et prix -->
+            <div class="item-details">
+                <div class="item-info">
+                    <h3>Sneakers Femme</h3>
+                    <p>Prix: 10000</p>
+                </div>
+                <div class="item-quantity">
+                    <h4>Quantités : </h4> <button class="quantity-btn" action="moins">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn" action="plus">+</button>
+                </div>
+                <div class="item-actions">
+                    <button class="like-btn">❤</button>
+                    <button class="delete-btn">🗑️</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-item" prix="8000">
+            <div class="item-image">
+                <img src="asset/img2.jpg" alt="Produit2">
+            </div>
+            <div class="item-details">
+                <div class="item-info">
+                    <h3>BabyNo</h3>
+                    <p>Prix: 8000</p>
+                </div>
+                <div class="item-quantity">
+                    <h4>Quantités : </h4><button class="quantity-btn" action="moins">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn" action="plus">+</button>
+                </div>
+                <div class="item-actions">
+                    <button class="like-btn">❤</button>
+                    <button class="delete-btn">🗑️</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-item" prix="13000">
+            <div class="item-image">
+                <img src="asset/img3.jpg" alt="Produit3">
+            </div>
+            <div class="item-details">
+                <div class="item-info">
+                    <h3>RealTh</h3>
+                    <p>Prix: 13000</p>
+                </div>
+                <div class="item-quantity">
+                    <h4>Quantités : </h4><button class="quantity-btn" action="moins">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn" action="plus">+</button>
+                </div>
+                <div class="item-actions">
+                    <button class="like-btn">❤</button>
+                    <button class="delete-btn">🗑️</button>
+                </div>
+            </div>
+        </div>
+        <div class="total">
+            Total: <span id="totalPrix">31 000</span>
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+    <footer class="bas" id="footer">
+        <!-- Pied de page -->
+        <p>Contactez-nous : sdsaliou@sds.com</p>
+        <a href="https://snapchat.com/t/BTL5qtHt" target="_blank" class="fond" alt="Suivez-nous sur snapchat" ><i class="fa-brands fa-square-snapchat"></i> snapchat</a>
+            <br> <a href="https://www.instagram.com/mame_diarra_ngane?igsh=MWsweTR4czdhZno5ZA%3D%3D&utm_source=qr" target="_blank" class="fond" alt="Suivez-nous sur instagram"><i class="fa-brands fa-instagram"></i> instagram</a>
+            <br> <a href="https://x.com/diarra_ngane?s=21" target="_blank" class="fond" alt="Suivez-nous sur X" ><i class="fa-brands fa-twitter"></i> X</a>
+            <p>&copy; 2024 SDSALIOU.</p>
+        </footer>
+        <!-- Pour les icons -->
+        <script src="https://kit.fontawesome.com/ffbfc5fdd6.js" crossorigin="anonymous"></script>
+    <!--fin partie footer-->
+</body>
+</html>
